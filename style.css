@@ -405,71 +405,13 @@
     justify-content: center;
 }
 
-#news-letter-new-year .new-year-container .content {
-    text-align: center;
-}
-
-#news-letter-new-year .new-year-container .content img {
-    width: 20%;
-    margin-bottom: 30px;
-}
-
-#news-letter-new-year .new-year-container .content h2 {
-    color: #070211;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
-    margin-bottom: 10px;
-}
-
-#news-letter-new-year .new-year-container .content p {
-    color: rgba(7, 2, 17, 0.60);
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    /* 160% */
-    margin-bottom: 40px;
-}
-
-#news-letter-new-year .new-year-container .content input {
-    width: 408px;
-    height: 72px;
-    border-radius: 50px;
-    background: rgb(255, 255, 255);
-    border: none;
-}
 
 
-#news-letter-new-year .new-year-container .content button {
-
-    width: 210px;
-    height: 72px;
-    border-radius: 0px 50px 50px 0px;
-    background: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: center;
-    text-transform: capitalize;
-    border: none;
-
-
-}
-
-#news-letter-new-year .new-year-container .content button:hover {
-    cursor: pointer;
-    background-color: rgb(255, 0, 72);
-
-}
+::placeholder {
+    color: rgba(7, 2, 17, 0.3);
+    margin-right: 100px;
+   
+  }
 
 #footer-copy-right {
     background: #070211;
@@ -547,4 +489,59 @@ hr{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+#news-letter {
+    text-align: center;
+    padding: 70px 0 50px;
+    background: #ffb6c133;
+    margin: 70px 0 50px;
+}
+
+#news-letter h3 {
+    font-size: 48px;
+    padding: 20px 0;
+}
+
+#news-letter p {
+    font-size: 20px;
+    color: grey;
+    width: 70%;
+    margin: auto;
+}
+
+.submit-btn {
+    width: 50%;
+    margin: 45px auto;
+    padding: 18px;
+    border-radius: 35px;
+    position: relative;
+    background: #fff;
+}
+
+.Subscribe {
+    background: red;
+    text-decoration: none;
+    padding: 17px 50px;
+    font-size: 20px;
+    color: #ffff;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 2;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.user-email {
+    width: 60%;
+    text-align: left;
+    margin: 0 420px 0 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: grey;
+}
+
+.Subscribe:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 72);
 }
